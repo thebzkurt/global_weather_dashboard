@@ -1,10 +1,7 @@
 import requests
 import matplotlib.pyplot as plt
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
-API_KEY = os.getenv('API_KEY')
+API_KEY = 'your api key'
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
 def fetch_weather_data(city):
